@@ -221,6 +221,12 @@ function Home() {
       <Typography>
         The code to build this application is open source, and <TextLink href="https://github.com/bmswens/AttendIT">availible here.</TextLink>
       </Typography>
+      <Typography variant="h5">
+        Question: Can I use the camera on my phone?
+      </Typography>
+      <Typography>
+        Answer: Unfortunately no. Many phone cameras have troubles reading barcodes from streaming video due to a combination of bad lighting, low resolution, lack of processing power, bad focus, etc.
+      </Typography>
       <Divider>
         <Typography variant="h4">
           The Technology
