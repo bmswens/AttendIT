@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# build time items
+public/sw.js
+public/sw.js.map
+publick/workbox*
