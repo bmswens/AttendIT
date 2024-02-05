@@ -106,7 +106,7 @@ function Home() {
         </IconButton>
       </CustomListItem>
       <CustomListItem>
-        Select "New List."
+        {`Select "New List."`}
         <IconButton>
           <PostAddIcon />
         </IconButton>
@@ -127,7 +127,7 @@ function Home() {
         </IconButton>
       </CustomListItem>
       <CustomListItem>
-        Select "Lists."
+      {`Select "Lists."`}
         <IconButton>
           <ListIcon />
         </IconButton>
@@ -139,7 +139,7 @@ function Home() {
         </IconButton>
       </CustomListItem>
       <CustomListItem>
-        Click the "View List" button.
+      {`Click the "View List" button.`}
         <IconButton>
           <ForwardIcon />
         </IconButton>
@@ -154,7 +154,7 @@ function Home() {
         Navigate to the list you want to add entries to.
       </CustomListItem>
       <CustomListItem>
-        Select the "Barcode Value" text field.
+      {`Select the "Barcode Value" text field.`}
       </CustomListItem>
       <TextField
         label="Barcode Value"
@@ -187,7 +187,7 @@ function Home() {
         Navigate to the list you want to add entries to.
       </CustomListItem>
       <CustomListItem>
-        Select the "Manual Sign In" button.
+      {`Select the "Manual Sign In" button.`}
         <IconButton>
           <PersonAddAlt1Icon />
         </IconButton>
@@ -199,7 +199,7 @@ function Home() {
         Click <Button variant='contained' size='small'>Submit</Button>.
       </CustomListItem>
       <CustomListItem indent>
-        OR click the "Submit Multiple" button to submit and clear the form.
+      {`OR click the "Submit Multiple" button to submit and clear the form.`}
         <IconButton>
           <GroupAddIcon />
         </IconButton>
@@ -211,7 +211,7 @@ function Home() {
         Navigate to the list you want to add entries to.
       </CustomListItem>
       <CustomListItem>
-        Click the "Download" button.
+      {`Click the "Download" button.`}
         <IconButton>
           <DownloadIcon />
         </IconButton>
@@ -226,7 +226,7 @@ function Home() {
         Navigate to the list you want to add entries to.
       </CustomListItem>
       <CustomListItem>
-        Click the "Delete" button.
+      {`Click the "Delete" button.`}
         <IconButton>
           <DownloadIcon />
         </IconButton>
@@ -246,10 +246,10 @@ function Home() {
           Short Answer: Yes.
         </Typography>
         <Typography>
-          Long Answer: This application is as secure as taking notes or saving files to your local device as it uses JavaScript's <TextLink href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">localStorage</TextLink>. 
+          Long Answer: This application is as secure as taking notes or saving files to your local device as it uses {`JavaScript's`} <TextLink href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">localStorage</TextLink>. 
         </Typography>
         <Typography>
-          If you're using the application as a <TextLink href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">Progressive Web App</TextLink>, it is sanboxed.
+          If you are using the application as a <TextLink href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">Progressive Web App</TextLink>, it is sanboxed.
           If you are accessing the application as a website, it is provided securely via <TextLink href="https://www.cloudflare.com/learning/ssl/what-is-https/">HTTPS</TextLink>.
         </Typography>
         <Typography>
